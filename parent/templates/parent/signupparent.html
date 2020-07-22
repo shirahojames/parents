@@ -1,0 +1,11 @@
+WELCOME TO E-MMUNIZE
+<br/>
+<br/>
+<h2>{{ error }}</h2>
+<form method="POST">
+{% csrf_token %}
+
+{{form.as_p}}
+
+<button type="submit">SIGNUP</button>
+</form>
